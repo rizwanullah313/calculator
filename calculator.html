@@ -1,0 +1,56 @@
+<HTML>
+<HEAD>
+</HEAD>
+<BODY>
+<form name=calc>
+<center>
+<br><br>
+<input type="textfield" name="action" value="" size=18>
+<br>
+<table width=12%>
+<tr>
+<td><input type=button name=1 value=" 1 "
+onclick=document.calc.action.value+=1></td>
+<td><input type=button name=2 value=" 2 "
+onclick=document.calc.action.value+=2></td>
+<td><input type=button name=3 value=" 3 "
+onclick=document.calc.action.value+=3></td>
+<td><input type=button name=3 value=" + "
+onclick=document.calc.action.value+='+'></td>
+</tr>
+<tr>
+<td><input type=button name=4 value=" 4 "
+onclick=document.calc.action.value+=4></td>
+
+<td><input type=button name=5 value=" 5 "
+onclick=document.calc.action.value+=5></td>
+<td><input type=button name=6 value=" 6 "
+onclick=document.calc.action.value+=6></td>
+<td><input type=button name=3 value=" - "
+onclick=document.calc.action.value+='-'></td>
+</tr>
+<tr>
+<td><input type=button name=7 value=" 7 "
+onclick=document.calc.action.value+=7></td>
+<td><input type=button name=8 value=" 8 "
+onclick=document.calc.action.value+=8></td>
+<td><input type=button name=9 value=" 9 "
+onclick=document.calc.action.value+=9></td>
+<td><input type=button name=3 value=" * "
+onclick=document.calc.action.value+='*'></td>
+</tr>
+<tr>
+<td><input type=button name=0 value=" 0 "
+onclick=document.calc.action.value+=0></td>
+<td><input type=reset name=reset value=Reset ></td>
+<td><input type=button name='=' value=" =
+"onclick=document.calc.action.value=eval(document.calc.action.value)
+></td>
+<td><input type=button name=3 value=" / "
+onclick=document.calc.action.value+='/'></td>
+</tr>
+</table>
+</center>
+</form>
+</BODY>
+</HTML>
